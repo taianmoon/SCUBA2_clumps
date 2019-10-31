@@ -1,0 +1,31 @@
+# Region file format: DS9 version 4.1
+# Filename: /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/SCUBA2_clumps/NGP4/NGP4_snr_170919.fits
+global color=red dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+circle(198.55577163325856,26.4993238583622,12") # width=3
+circle(198.5942535515574,26.550443786556638,12") # width=3
+circle(198.57936298086165,26.491552715746103,12") # width=3
+circle(198.6302658401647,26.505998259174607,12") # width=3
+circle(198.54955204040112,26.522654789005887,12") # width=3
+circle(198.56570074997674,26.508216010496632,12") # width=3
+circle(198.63523100144877,26.500441844671887,12") # width=3
+circle(198.55700579467847,26.515990964117478,12") # width=3
+circle(198.67126197321898,26.547097105973105,12") # width=3
+circle(198.5756279701813,26.529329696834253,12") # width=3
+circle(198.61412543132494,26.51822208777911,12") # width=3
+circle(198.6166087689835,26.51599973659324,12") # width=3
+circle(198.58681564519864,26.47044290057445,12") # width=3
+
+# text(198.55577163325856,26.4993238583622) color=black width=3 font="helvetica 12 bold roman" text={NGP4.01}
+# text(198.5942535515574,26.550443786556638) color=black width=3 font="helvetica 12 bold roman" text={NGP4.02}
+# text(198.57936298086165,26.491552715746103) color=black width=3 font="helvetica 12 bold roman" text={NGP4.03}
+# text(198.6302658401647,26.505998259174607) color=black width=3 font="helvetica 12 bold roman" text={NGP4.04}
+# text(198.54955204040112,26.522654789005887) color=black width=3 font="helvetica 12 bold roman" text={NGP4.05}
+# text(198.56570074997674,26.508216010496632) color=black width=3 font="helvetica 12 bold roman" text={NGP4.06}
+# text(198.63523100144877,26.500441844671887) color=black width=3 font="helvetica 12 bold roman" text={NGP4.07}
+# text(198.55700579467847,26.515990964117478) color=black width=3 font="helvetica 12 bold roman" text={NGP4.08}
+# text(198.67126197321898,26.547097105973105) color=black width=3 font="helvetica 12 bold roman" text={NGP4.09}
+# text(198.5756279701813,26.529329696834253) color=black width=3 font="helvetica 12 bold roman" text={NGP4.10}
+# text(198.61412543132494,26.51822208777911) color=black width=3 font="helvetica 12 bold roman" text={NGP4.11}
+# text(198.6166087689835,26.51599973659324) color=black width=3 font="helvetica 12 bold roman" text={NGP4.12}
+# text(198.58681564519864,26.47044290057445) color=black width=3 font="helvetica 12 bold roman" text={NGP4.13}

@@ -1,0 +1,18 @@
+global color=red dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+
+circle(216.15980372170557, 52.94399758869733,12") # width=3
+circle(216.1118697147663, 52.93177536768393,12") # width=3
+circle(216.11369203626745, 52.972886829391285,12") # width=3
+circle(216.17088227779283, 52.96288373377455,12") # width=3
+circle(216.0694145893289,52.96953704507379,12") # width=3
+circle(216.2428412332992,52.96950751140339,12") # width=3
+circle(216.10258122568558,53.025106418192834,12") # width=3
+
+# text(216.15980372170557, 52.93899758869733) color=black width=3 font="helvetica 12 bold roman" text={EGS.01}
+# text(216.1118697147663, 52.92677536768393) color=black width=3 font="helvetica 12 bold roman" text={EGS.02}
+# text(216.11369203626745, 52.967886829391285) color=black width=3 font="helvetica 12 bold roman" text={EGS.03}
+# text(216.17088227779283, 52.95788373377455) color=black width=3 font="helvetica 12 bold roman" text={EGS.04}
+# text(216.0694145893289,52.96953704507379) color=black width=3 font="helvetica 12 bold roman" text={EGS.05}
+# text(216.2428412332992,52.96950751140339) color=black width=3 font="helvetica 12 bold roman" text={EGS.06}
+# text(216.10258122568558,53.025106418192834) color=black width=3 font="helvetica 12 bold roman" text={EGS.07}

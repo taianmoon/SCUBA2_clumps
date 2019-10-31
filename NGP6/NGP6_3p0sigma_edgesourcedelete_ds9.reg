@@ -1,0 +1,39 @@
+# Region file format: DS9 version 4.1
+# Filename: /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/SCUBA2_clumps/NGP6/NGP6_snr_170919.fits
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+point(200.81323,33.385111) # point=boxcircle color=blue
+point(200.74136,33.403986) # point=boxcircle color=blue
+point(200.80258,33.385111) # point=boxcircle color=blue
+point(200.83452,33.393996) # point=boxcircle color=blue
+point(200.80791,33.409555) # point=boxcircle color=blue
+point(200.76264,33.432883) # point=boxcircle color=blue
+point(200.80791,33.422889) # point=boxcircle color=blue
+point(200.75733,33.390659) # point=boxcircle color=blue
+point(200.86513,33.40065) # point=boxcircle color=blue
+point(200.78927,33.381777) # point=boxcircle color=blue
+point(200.78263,33.353999) # point=boxcircle color=blue
+point(200.76397,33.423994) # point=boxcircle color=blue
+point(200.7334,33.370648) # point=boxcircle color=blue
+point(200.76931,33.385107) # point=boxcircle color=blue
+point(200.7773,33.388442) # point=boxcircle color=blue
+point(200.71077,33.379523) # point=boxcircle color=blue
+point(200.78263,33.328443) # point=boxcircle color=blue
+point(200.8159,33.44511) # point=boxcircle color=blue
+point(200.80258,33.399556) # point=boxcircle color=blue
+point(200.83716,33.346217) # point=boxcircle color=blue
+point(200.8545,33.417322) # point=boxcircle color=blue
+point(200.77596,33.417331) # point=boxcircle color=blue
+point(200.83716,33.331773) # point=boxcircle color=blue
+point(200.81322,33.347333) # point=boxcircle color=blue
+point(200.87182,33.432869) # point=boxcircle color=blue
+point(200.7467,33.36621) # point=boxcircle color=blue
+point(200.86513,33.391761) # point=boxcircle color=blue
+point(200.87576,33.373978) # point=boxcircle color=blue
+point(200.85976,33.320653) # point=boxcircle color=blue
+point(200.80125,33.340667) # point=boxcircle color=blue
+point(200.8079,33.358444) # point=boxcircle color=blue
+point(200.8811,33.395086) # point=boxcircle color=blue
+point(200.71345,33.363969) # point=boxcircle color=blue
+point(200.85979,33.373986) # point=boxcircle color=blue
+point(200.78794,33.390666) # point=boxcircle color=blue

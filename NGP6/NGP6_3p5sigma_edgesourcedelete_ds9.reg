@@ -1,0 +1,44 @@
+global color=red dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+
+circle(200.8132261784914, 33.385110536020235,12") # width=3
+circle(200.7413561161412, 33.403985611733845,12") # width=3
+circle(200.80258068651818, 33.385111104011315,12") # width=3
+circle(200.83452056075032, 33.393995561000835,12") # width=3
+circle(200.8079053037381, 33.40955537641047,12") # width=3
+circle(200.7626388787842, 33.432882895971446,12") # width=3
+circle(200.8651343564252, 33.40065029848655,12") # width=3
+circle(200.7639741094964, 33.42399441949297,12") # width=3
+circle(200.80790632482314,33.42288870566256,12") # width=3
+circle(200.7573345473378,33.39065893324151,12") # width=3
+circle(200.7892742806505,33.38177720276348,12") # width=3
+circle(200.78262705332898,33.35399861312396,12") # width=3
+circle(200.73339629232566,33.370648210309604,12") # width=3
+circle(200.76931352686532,33.38510702157603,12") # width=3
+circle(200.7772967257097,33.38844214378579,12") # width=3
+circle(200.7107691736011,33.37952273266448,12") # width=3
+circle(200.78263252370635,33.328443074337635,12") # width=3
+circle(200.81589765986843,33.44511022813385,12") # width=3
+circle(200.80258090763172,33.39955554814586,12") # width=3
+
+
+
+# text(200.8132261784914, 33.380110536020235) color=black width=3 font="helvetica 12 bold roman" text={NGP6.01}
+# text(200.7413561161412, 33.398985611733845) color=black width=3 font="helvetica 12 bold roman" text={NGP6.02}
+# text(200.80258068651818, 33.380111104011315) color=black width=3 font="helvetica 12 bold roman" text={NGP6.03}
+# text(200.83452056075032, 33.388995561000835) color=black width=3 font="helvetica 12 bold roman" text={NGP6.04}
+# text(200.8079053037381, 33.40455537641047) color=black width=3 font="helvetica 12 bold roman" text={NGP6.05}
+# text(200.7626388787842, 33.427882895971446) color=black width=3 font="helvetica 12 bold roman" text={NGP6.06}
+# text(200.8651343564252, 33.39565029848655) color=black width=3 font="helvetica 12 bold roman" text={NGP6.09}
+# text(200.7639741094964, 33.41899441949297) color=black width=3 font="helvetica 12 bold roman" text={NGP6.12}
+# text(200.80790632482314,33.42288870566256) color=black width=3 font="helvetica 12 bold roman" text={NGP6.07}
+# text(200.7573345473378,33.39065893324151) color=black width=3 font="helvetica 12 bold roman" text={NGP6.08}
+# text(200.7892742806505,33.38177720276348) color=black width=3 font="helvetica 12 bold roman" text={NGP6.10}
+# text(200.78262705332898,33.35399861312396) color=black width=3 font="helvetica 12 bold roman" text={NGP6.11}
+# text(200.73339629232566,33.370648210309604) color=black width=3 font="helvetica 12 bold roman" text={NGP6.13}
+# text(200.76931352686532,33.38510702157603) color=black width=3 font="helvetica 12 bold roman" text={NGP6.14}
+# text(200.7772967257097,33.38844214378579) color=black width=3 font="helvetica 12 bold roman" text={NGP6.15}
+# text(200.7107691736011,33.37952273266448) color=black width=3 font="helvetica 12 bold roman" text={NGP6.16}
+# text(200.78263252370635,33.328443074337635) color=black width=3 font="helvetica 12 bold roman" text={NGP6.17}
+# text(200.81589765986843,33.44511022813385) color=black width=3 font="helvetica 12 bold roman" text={NGP6.18}
+# text(200.80258090763172,33.39955554814586) color=black width=3 font="helvetica 12 bold roman" text={NGP6.19}

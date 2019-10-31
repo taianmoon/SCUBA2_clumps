@@ -1,0 +1,8 @@
+kappa
+smurf
+
+makemap in='*.sdf' out=bootes_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES bootes_850_new_*.sdf  #--------------------------------------------> and then add filename of new_jackknife_(#)_mos.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER bootes_850_new_jackknife_1_mos.sdf
+picard -log s -recpars crop.ini CROP_SCUBA2_IMAGES bootes_850_new_jackknife_1_mos_mf.sdf
+makesnr MINVAR=1e-12 bootes_850_new_jackknife_1_mos_mf_crop bootes_850_new_jackknife_1_mos_mf_crop_snr

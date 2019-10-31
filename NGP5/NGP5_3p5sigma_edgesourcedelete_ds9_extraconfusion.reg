@@ -1,0 +1,19 @@
+global color=red dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+
+circle(205.17118083290637, 32.61808332644232,12") # width=3
+circle(205.18569625680786, 32.649193751961384,12") # width=3
+circle(205.17645661731763, 32.5980832726176,12") # width=3
+circle(205.1091690005527, 32.633622993548556,12") # width=3
+circle(205.19624294348122, 32.6103033224412,12") # width=3
+circle(205.1817385269154, 32.66030521118906,12") # width=3
+circle(205.20811176086727, 32.603633865927435,12") # width=3
+
+
+# text(205.17118083290637, 32.61308332644232) color=black width=3 font="helvetica 12 bold roman" text={NGP5.01}
+# text(205.18569625680786, 32.644193751961384) color=black width=3 font="helvetica 12 bold roman" text={NGP5.02}
+# text(205.17645661731763, 32.5930832726176) color=black width=3 font="helvetica 12 bold roman" text={NGP5.03}
+# text(205.1091690005527, 32.628622993548556) color=black width=3 font="helvetica 12 bold roman" text={NGP5.04}
+# text(205.19624294348122, 32.6053033224412) color=black width=3 font="helvetica 12 bold roman" text={NGP5.05}
+# text(205.1817385269154, 32.65530521118906) color=black width=3 font="helvetica 12 bold roman" text={NGP5.06}
+# text(205.20811176086727, 32.598633865927435) color=black width=3 font="helvetica 12 bold roman" text={NGP5.07}

@@ -1,0 +1,127 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 5228 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
+<VOTABLE version='1.1'>
+<!--
+ !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
+ !  Describes BINTABLE extensions in following HDUs
+ !-->
+<RESOURCE>
+<TABLE name="Joined" nrows="10">
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2017-11-27T17:12:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="STILVERS" value="3.1">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2018-09-04T14:23:40">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="STILVERS" value="3.1">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="54" datatype="char" name="First input table" value="1: Bootes1_herschel_match_3p5sigma_cat_edgesourcede..."/>
+<PARAM arraysize="54" datatype="char" name="Second input table" value="2: Bootes1_herschel_match_3p5sigma_cat_edgesourcede..."/>
+<FIELD datatype="double" name="pix_x_1"/>
+<FIELD datatype="double" name="pix_y_1"/>
+<FIELD datatype="double" name="RA_1"/>
+<FIELD datatype="double" name="Dec_1"/>
+<FIELD datatype="double" name="SN_ratio_1"/>
+<FIELD datatype="double" name="flux_pW_1"/>
+<FIELD datatype="double" name="flux_mJy_perbeam_1"/>
+<FIELD datatype="double" name="flux_error_mJy_1"/>
+<FIELD arraysize="50" datatype="char" name="IAU_name">
+<DESCRIPTION>IAU Name</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="RA_2" unit="deg">
+<DESCRIPTION>Right Ascension (J2000)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Dec_2" unit="deg">
+<DESCRIPTION>Declination (J2000)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="F250" unit="mJy">
+<DESCRIPTION>Flux density at 250 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="e_F250" unit="mJy">
+<DESCRIPTION>Error (inst.) in flux density at 250 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="F350" unit="mJy">
+<DESCRIPTION>Flux density at 350 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="e_F350" unit="mJy">
+<DESCRIPTION>Error (inst.) in flux density at 350 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="F500" unit="mJy">
+<DESCRIPTION>Flux density at 500 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="e_F500" unit="mJy">
+<DESCRIPTION>Error (inst.) in flux density at 500 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et_F250" unit="mJy">
+<DESCRIPTION>Total error (inst.+conf.) in flux density at 250 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Chi250">
+<DESCRIPTION>Local reduced chi2 statistic of photometry fit in 11x11 pixel window</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et_F350" unit="mJy">
+<DESCRIPTION>Total error (inst.+conf.) in flux density at 350 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Chi350">
+<DESCRIPTION>Local reduced chi2 statistic of photometry fit in 11x11 pixel window</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et_F500" unit="mJy">
+<DESCRIPTION>Total error (inst.+conf.) in flux density at 500 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Chi500">
+<DESCRIPTION>Local reduced chi2 statistic of photometry fit in 11x11 pixel window</DESCRIPTION>
+</FIELD>
+<FIELD datatype="int" name="gID">
+<DESCRIPTION>ID of the segment where the source is</DESCRIPTION>
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="gSize">
+<DESCRIPTION>Number of sources in the segment gid</DESCRIPTION>
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="double" name="bkg250" unit="mJy/Beam">
+<DESCRIPTION>Background substracted from 250 micron map</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="bkg350" unit="mJy/Beam">
+<DESCRIPTION>Background substracted from 350 micron map</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="bkg500" unit="mJy/Beam">
+<DESCRIPTION>Background substracted from 500 micron map</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Separation_1" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="flux_mJy_perbeam_deboost"/>
+<FIELD datatype="double" name="flux_error_mJy_deboost"/>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  282 / width of table in bytes                        NAXIS2  =                   10 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   31 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'pix_x_1 '           / label for column 1                             TFORM1  = 'D       '           / format for column 1                            TTYPE2  = 'pix_y_1 '           / label for column 2                             TFORM2  = 'D       '           / format for column 2                            TTYPE3  = 'RA_1    '           / label for column 3                             TFORM3  = 'D       '           / format for column 3                            TTYPE4  = 'Dec_1   '           / label for column 4                             TFORM4  = 'D       '           / format for column 4                            TTYPE5  = 'SN_ratio_1'         / label for column 5                             TFORM5  = 'D       '           / format for column 5                            TTYPE6  = 'flux_pW_1'          / label for column 6                             TFORM6  = 'D       '           / format for column 6                            TTYPE7  = 'flux_mJy_perbeam_1' / label for column 7                             TFORM7  = 'D       '           / format for column 7                            TTYPE8  = 'flux_error_mJy_1'   / label for column 8                             TFORM8  = 'D       '           / format for column 8                            TTYPE9  = 'IAU_name'           / label for column 9                             TFORM9  = '50A     '           / format for column 9                            TCOMM9  = 'IAU Name'                                                            TTYPE10 = 'RA_2    '           / label for column 10                            TFORM10 = 'D       '           / format for column 10                           TUNIT10 = 'deg     '           / units for column 10                            TCOMM10 = 'Right Ascension (J2000)'                                             TTYPE11 = 'Dec_2   '           / label for column 11                            TFORM11 = 'D       '           / format for column 11                           TUNIT11 = 'deg     '           / units for column 11                            TCOMM11 = 'Declination (J2000)'                                                 TTYPE12 = 'F250    '           / label for column 12                            TFORM12 = 'D       '           / format for column 12                           TUNIT12 = 'mJy     '           / units for column 12                            TCOMM12 = 'Flux density at 250 micron'                                          TTYPE13 = 'e_F250  '           / label for column 13                            TFORM13 = 'D       '           / format for column 13                           TUNIT13 = 'mJy     '           / units for column 13                            TCOMM13 = 'Error (inst.) in flux density at 250 micron'                         TTYPE14 = 'F350    '           / label for column 14                            TFORM14 = 'D       '           / format for column 14                           TUNIT14 = 'mJy     '           / units for column 14                            TCOMM14 = 'Flux density at 350 micron'                                          TTYPE15 = 'e_F350  '           / label for column 15                            TFORM15 = 'D       '           / format for column 15                           TUNIT15 = 'mJy     '           / units for column 15                            TCOMM15 = 'Error (inst.) in flux density at 350 micron'                         TTYPE16 = 'F500    '           / label for column 16                            TFORM16 = 'D       '           / format for column 16                           TUNIT16 = 'mJy     '           / units for column 16                            TCOMM16 = 'Flux density at 500 micron'                                          TTYPE17 = 'e_F500  '           / label for column 17                            TFORM17 = 'D       '           / format for column 17                           TUNIT17 = 'mJy     '           / units for column 17                            TCOMM17 = 'Error (inst.) in flux density at 500 micron'                         TTYPE18 = 'et_F250 '           / label for column 18                            TFORM18 = 'D       '           / format for column 18                           TUNIT18 = 'mJy     '           / units for column 18                            TCOMM18 = 'Total error (inst.+conf.) in flux density at 250 micron'             TTYPE19 = 'Chi250  '           / label for column 19                            TFORM19 = 'D       '           / format for column 19                           TCOMM19 = 'Local reduced chi2 statistic of photometry fit in 11x11 pixel window'TTYPE20 = 'et_F350 '           / label for column 20                            TFORM20 = 'D       '           / format for column 20                           TUNIT20 = 'mJy     '           / units for column 20                            TCOMM20 = 'Total error (inst.+conf.) in flux density at 350 micron'             TTYPE21 = 'Chi350  '           / label for column 21                            TFORM21 = 'D       '           / format for column 21                           TCOMM21 = 'Local reduced chi2 statistic of photometry fit in 11x11 pixel window'TTYPE22 = 'et_F500 '           / label for column 22                            TFORM22 = 'D       '           / format for column 22                           TUNIT22 = 'mJy     '           / units for column 22                            TCOMM22 = 'Total error (inst.+conf.) in flux density at 500 micron'             TTYPE23 = 'Chi500  '           / label for column 23                            TFORM23 = 'D       '           / format for column 23                           TCOMM23 = 'Local reduced chi2 statistic of photometry fit in 11x11 pixel window'TTYPE24 = 'gID     '           / label for column 24                            TFORM24 = 'J       '           / format for column 24                           TNULL24 =               999999 / blank value for column 24                      TCOMM24 = 'ID of the segment where the source is'                               TTYPE25 = 'gSize   '           / label for column 25                            TFORM25 = 'J       '           / format for column 25                           TNULL25 =               999999 / blank value for column 25                      TCOMM25 = 'Number of sources in the segment gid'                                TTYPE26 = 'bkg250  '           / label for column 26                            TFORM26 = 'D       '           / format for column 26                           TUNIT26 = 'mJy/Beam'           / units for column 26                            TCOMM26 = 'Background substracted from 250 micron map'                          TTYPE27 = 'bkg350  '           / label for column 27                            TFORM27 = 'D       '           / format for column 27                           TUNIT27 = 'mJy/Beam'           / units for column 27                            TCOMM27 = 'Background substracted from 350 micron map'                          TTYPE28 = 'bkg500  '           / label for column 28                            TFORM28 = 'D       '           / format for column 28                           TUNIT28 = 'mJy/Beam'           / units for column 28                            TCOMM28 = 'Background substracted from 500 micron map'                          TTYPE29 = 'Separation_1'       / label for column 29                            TFORM29 = 'D       '           / format for column 29                           TUNIT29 = 'arcsec  '           / units for column 29                            TCOMM29 = 'Distance between matched objects along a great circle'               TUCD29  = 'pos.angDistance'                                                     TTYPE30 = 'flux_mJy_perbeam_deboost' / label for column 30                      TFORM30 = 'D       '           / format for column 30                           TTYPE31 = 'flux_error_mJy_deboost' / label for column 31                        TFORM31 = 'D       '           / format for column 31                           DATE-HDU= '2018-09-05T17:51:02' / Date of HDU creation (UTC)                    STILVERS= '3.1     '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @W¿     @S¿     @kR6Œ˙]p@A∆K∫Õ@*≤Ü^ôè>Ù—;Sÿ8@%Rr	•?ı‰_#x2HERMES S250 SF J143416.3+353257                  @kR.úÀ}A@A∆M++˝µ@`í≤Vˇ¡@Iú˘@Wˇ‡"&˛@÷∫åXhw@Py¬ejΩ‰@ûB·& %@8~Ãéπ?˛}ì©ïê @ÿ›|Gy@ à¸ìcı@rÖà#Õ?Ù⁄!u˛äˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@ÉÔÅú!∆@#„ajÇ∏9?Ùk~[€ßQ@``     @VÄ     @kP£˝ë#p@A«€‹›@aêÎ“Q>ÒpÄ™É@!ÑôÃù%?˚Å.\´œl2HERMES S250 SF J143404.6+353342                  @kPùà;£D@A«Î[-M@@7≈çXB∑5@›À¬·ëÄ@@RÛæ˝ @¢À ˚"K@@ù°fµ@	=5√0kŸ@ÕbJ?ıg§T@&¸ΩU`Ö?˚E®ÄΩ)¬@5áó≤z?ı|«]!CˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@Vú‰VCv@g¢ÉÈµ?˜IQ C@AÄ     @Z      @kT÷ANY@A…ÿõ.ü/@Óy∫T>ÚXòàœ @" xsò˚›@ ƒL3]l2HERMES S250 SF J143436.6+353438                  @kT„˚Ω{ @A…Íƒ.òö@Bº£n@äC1Æ@@óFü@Ó∞∑√PL@5≥êÖÙ°'@E§ÑØ& @
+,©¨6?Ùz˛æ∑`T@‹±F^â?Ú˝›8T€@ÅY— ?ı(˙ÀŸˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@0s–Ë@Â^6˝∏?˙¨ˆ˚"b@W      @ZÄ     @kRXZî5@A "!ëı@ë‰z…§)>Áz¸Ãsj@ª/î[?˜8˚-Ò]2HERMES S250 SF J143417.1+353451                  @kRH@·qü@A _c<Ê:@9Œ€ÁÚ√@|ÜhÕ@9&=Åjœ@ìö|®ì@:„=·‚ﬁá@´à Í·ã@
+ÏJ@ïÚ?ÙåÍî]v@y∂ı Úÿ?Ò9ë˚@Fò†tı?˜`"I÷„ßˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@!µ£NŒ3@aÌC5å?Ò¿∏"«@X¿     @;      @kR
+%—Z@AæÂÕ;`µ@ÿ5eO#>.@«.ê@ íØﬂB`w@ ßeÄ‡*2HERMES S250 SF J143415.4+352926                  @kR#c≤W@AæÕÚf∫I@7Ò6;%@	èæNÑ»@@Rêñªô@9XˆTÜ@8Üœ¶õ‡ú@ä6‚ÎC@}øHÄ?˚%÷Ùm˚Ü@L˛ﬁó–l?Û,<‘ú§Á@Õ≠Î›ó?ÛEC /—ˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@⁄5Ï‚@∆PƒM?¯ÂEeÈ@M      @P@     @kS‘¨ÓD≤@AƒM$\Y@⁄& ÄŒ>Î”–Nö(@ÄâÃ–<?˝OØ=ä‹¿2HERMES S250 SF J143427.8+353157                  @kS∑È˘r@Aƒ1zÃN˘@<,Q¸LY@ÑY“⁄@I|≤Bç@ÎÚ⁄}èx@NI%Ì–Rì@
+¸9yûQè@	$k@ç1vöë@L>/Êx?˝ùáüú@æ©ˇ´bÔ?˘{§Ü\•ÛˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@%sm	…ß@ÇúOßf?ıú;êOJ’@X¿     @OÄ     @kR
+o@AƒÖK b@aÔËà>Áñç[º@¢”"Ä∫i?¯Âú⁄ÀøÒ2HERMES S250 SF J143415.0+353151                  @kR£n.≤@A√˘do@KË\1Y>@I,‹◊‹À@Jƒ/@_k†@«∏Éi¨l@@˙∆£Ωﬂ @gˇ√ö$@ãæ√Ë@ËaP@ﬁ^≈à5@úQ9Æww@£9·>ù?¯¡Å$WŒˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@
+*7>˝°ô@+õ3xY?ÚAæ@V@     @X@     @kRyÓ
+∆≠@A»⁄s¸„È@æãKÓ{>„Gw∫bé+@ø"TäsÁ?ı≈&€©Â2HERMES S250 SF J143417.6+353409                  @kR[¿6„@A»‹¬V*        @™ë{ΩÊÄ@&&¨ü/‹@#Y^@'7@ÆÅe∆-@Ä‘‹e«@øÁ·¸?˘'ËF•÷ø@Ò i,?˜ÆM5<¯Ø@ÃëÌ⁄4‘?ˆ›ˆ∞ÀÂˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@%îÁÈcw@Ÿ!K2’¯?Ó≥|Äêéö@P      @_      @kSë»∫ë-@AÃ±X¯°ß@âp†∂”>ËGf]∆a◊@ﬁå*r4?˚‚™GJÜ2HERMES S250 SF J143427.0+353556                  @kSôôôôö@AÃ´ﬁ?ªÿ@$ˇÔ9_@´òüûñY@7>•¯L≠X@sÉÖ[4@1=m†ã]@
+Êﬁ∆ T@
+
+Ω…#À?ˆƒ›ÎA˙@5{‚œmë?˜?G√„Ôˇ@D≠ﬁÂE?¯ÍF$ß5ˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@€^˜ﬁE@T !gøΩ?Ûo8•∆@c      @KÄ     @kOÆ/+úM@A¬‡7"F÷@	IScuë>Ô	¯ Dæ@ †‡û(Í@$†§Á–|2HERMES S250 SF J143357.1+353124                  @kOù‹yh@A¬ˇ %ø≠@K…VlÙ!@ÿ“ È4@?ägÛ
+N@íˇƒp›π@8ûˆÉ{·@ıå∑^¶@˝ÃÍ(˛&@? ªzîÚ@µhaÈ)$?ı¡Å?/¿∏@€çe/é?Ù_–ö∑¶ÀˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@˝rB-ˆ@·õ§k˝Ê?¯˘ç˘E‘                                                            

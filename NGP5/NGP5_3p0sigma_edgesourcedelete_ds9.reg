@@ -1,0 +1,26 @@
+# Region file format: DS9 version 4.1
+# Filename: /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/SCUBA2_clumps/NGP5/NGP5_snr_170919.fits
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+point(205.17118,32.618083) # point=boxcircle color=blue
+point(205.1857,32.649194) # point=boxcircle color=blue
+point(205.17646,32.598083) # point=boxcircle color=blue
+point(205.10917,32.633623) # point=boxcircle color=blue
+point(205.19624,32.610303) # point=boxcircle color=blue
+point(205.18174,32.660305) # point=boxcircle color=blue
+point(205.20811,32.603634) # point=boxcircle color=blue
+point(205.11839,32.665849) # point=boxcircle color=blue
+point(205.12369,32.622518) # point=boxcircle color=blue
+point(205.08804,32.651388) # point=boxcircle color=blue
+point(205.11316,32.578069) # point=boxcircle color=blue
+point(205.1593,32.693638) # point=boxcircle color=blue
+point(205.20284,32.619191) # point=boxcircle color=blue
+point(205.17514,32.60475) # point=boxcircle color=blue
+point(205.18041,32.586972) # point=boxcircle color=blue
+point(205.18173,32.613639) # point=boxcircle color=blue
+point(205.22788,32.583627) # point=boxcircle color=blue
+point(205.13949,32.690301) # point=boxcircle color=blue
+point(205.18701,32.621416) # point=boxcircle color=blue
+point(205.19361,32.629193) # point=boxcircle color=blue
+point(205.11311,32.656958) # point=boxcircle color=blue
+point(205.1303,32.589187) # point=boxcircle color=blue

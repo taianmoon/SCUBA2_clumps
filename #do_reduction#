@@ -1,0 +1,95 @@
+kappa
+smurf
+makemap in='s8*20130408_00028_00*.sdf' out=g12h29_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130408_00030_00*.sdf' out=g12h29_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130408_00033_00*.sdf' out=g12h29_850_new_3 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130411_00018_00*.sdf' out=g12h29_850_new_4 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES g12h29_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER g12h29_850_new_4_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES g12h29_850_new_4_mos_mf.sdf
+makesnr MINVAR=1e-12 g12h29_850_new_4_mos_mf_crop g12h29_850_new_4_mos_mf_crop_snr
+makemap in='s8*20130409_00035_00*.sdf' out=bootes_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130409_00037_00*.sdf' out=bootes_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130411_00047_00*.sdf' out=bootes_850_new_3 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130412_00034_00*.sdf' out=bootes_850_new_4 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES bootes_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER bootes_850_new_4_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES bootes_850_new_4_mos_mf.sdf
+makesnr MINVAR=1e-12 bootes_850_new_4_mos_mf_crop bootes_850_new_4_mos_mf_crop_snr
+makemap in='s8*20130409_00047_00*.sdf' out=ngp5_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130409_00049_00*.sdf' out=ngp5_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES ngp5_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER ngp5_850_new_2_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES ngp5_850_new_2_mos_mf.sdf
+makesnr MINVAR=1e-12 ngp5_850_new_2_mos_mf_crop ngp5_850_new_2_mos_mf_crop_snr
+makemap in='s8*20130409_00052_00*.sdf' out=ngp2_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130409_00054_00*.sdf' out=ngp2_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES ngp2_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER ngp2_850_new_2_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES ngp2_850_new_2_mos_mf.sdf
+makesnr MINVAR=1e-12 ngp2_850_new_2_mos_mf_crop ngp2_850_new_2_mos_mf_crop_snr
+makemap in='s8*20130411_00021_00*.sdf' out=ngp3_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130411_00023_00*.sdf' out=ngp3_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES ngp3_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER ngp3_850_new_2_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES ngp3_850_new_2_mos_mf.sdf
+makesnr MINVAR=1e-12 ngp3_850_new_2_mos_mf_crop ngp3_850_new_2_mos_mf_crop_snr
+makemap in='s8*20130411_00042_00*.sdf' out=ngp8_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130411_00043_00*.sdf' out=ngp8_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES ngp8_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER ngp8_850_new_2_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES ngp8_850_new_2_mos_mf.sdf
+makesnr MINVAR=1e-12 ngp8_850_new_2_mos_mf_crop ngp8_850_new_2_mos_mf_crop_snr
+makemap in='s8*20130408_00047_00*.sdf' out=ngp1_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130408_00049_00*.sdf' out=ngp1_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130408_00050_00*.sdf' out=ngp1_850_new_3 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130412_00025_00*.sdf' out=ngp1_850_new_4 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130412_00027_00*.sdf' out=ngp1_850_new_5 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES ngp1_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER ngp1_850_new_5_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES ngp1_850_new_5_mos_mf.sdf
+makesnr MINVAR=1e-12 ngp1_850_new_5_mos_mf_crop ngp1_850_new_5_mos_mf_crop_snr
+makemap in='s8*20130408_00053_00*.sdf' out=ngp9_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130408_00056_00*.sdf' out=ngp9_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130408_00057_00*.sdf' out=ngp9_850_new_3 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130412_00020_00*.sdf' out=ngp9_850_new_4 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130412_00022_00*.sdf' out=ngp9_850_new_5 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES ngp9_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER ngp9_850_new_5_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES ngp9_850_new_5_mos_mf.sdf
+makesnr MINVAR=1e-12 ngp9_850_new_5_mos_mf_crop ngp9_850_new_5_mos_mf_crop_snr
+makemap in='s8*20130408_00060_00*.sdf' out=ngp6_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130411_00026_00*.sdf' out=ngp6_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130411_00027_00*.sdf' out=ngp6_850_new_3 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130412_00038_00*.sdf' out=ngp6_850_new_4 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130412_00043_00*.sdf' out=ngp6_850_new_5 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES ngp6_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER ngp6_850_new_5_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES ngp6_850_new_5_mos_mf.sdf
+makesnr MINVAR=1e-12 ngp6_850_new_5_mos_mf_crop ngp6_850_new_5_mos_mf_crop_snr
+makemap in='s8*20130409_00024_00*.sdf' out=ngp7_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130409_00025_00*.sdf' out=ngp7_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES ngp7_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER ngp7_850_new_2_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES ngp7_850_new_2_mos_mf.sdf
+makesnr MINVAR=1e-12 ngp7_850_new_2_mos_mf_crop ngp7_850_new_2_mos_mf_crop_snr
+makemap in='s8*20130409_00028_00*.sdf' out=ngp4_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130409_00044_00*.sdf' out=ngp4_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES ngp4_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER ngp4_850_new_2_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES ngp4_850_new_2_mos_mf.sdf
+makesnr MINVAR=1e-12 ngp4_850_new_2_mos_mf_crop ngp4_850_new_2_mos_mf_crop_snr
+makemap in='s8*20130411_00036_00*.sdf' out=egs_850_new_1 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130411_00039_00*.sdf' out=egs_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES egs_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER egs_850_new_2_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES egs_850_new_2_mos_mf.sdf
+makesnr MINVAR=1e-12 egs_850_new_2_mos_mf_crop egs_850_new_2_mos_mf_crop_snr
+makemap in='s8*20130408_00016_00*.sdf' out=lockman_850_new_2 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130408_00019_00*.sdf' out=lockman_850_new_3 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130408_00020_00*.sdf' out=lockman_850_new_4 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+makemap in='s8*20130408_00022_00*.sdf' out=lockman_850_new_5 method=iterate config=^$STARLINK_DIR/share/smurf/dimmconfig_blank_field.lis
+picard -log s MOSAIC_JCMT_IMAGES lockman_850_new_*.sdf
+picard -log s -recpars smooth_30.ini SCUBA2_MATCHED_FILTER lockman_850_new_5_mos.sdf
+picard -log s -recpars crop.ini CROP_JCMT_IMAGES lockman_850_new_5_mos_mf.sdf
+makesnr MINVAR=1e-12 lockman_850_new_5_mos_mf_crop lockman_850_new_5_mos_mf_crop_snr

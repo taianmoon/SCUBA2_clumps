@@ -1,0 +1,17 @@
+# Region file format: DS9 version 4.1
+# Filename: /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/SCUBA2_clumps/NGP2/NGP2_snr_170919.fits
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+point(199.87603,26.496553) # point=boxcircle color=blue
+point(199.88225,26.415443) # point=boxcircle color=blue
+point(199.9021,26.474333) # point=boxcircle color=blue
+point(199.87232,26.427663) # point=boxcircle color=blue
+point(199.88969,26.444333) # point=boxcircle color=blue
+point(199.92443,26.41211) # point=boxcircle color=blue
+point(199.81274,26.45986) # point=boxcircle color=blue
+point(199.82389,26.486533) # point=boxcircle color=blue
+point(199.89094,26.418777) # point=boxcircle color=blue
+point(199.93934,26.484329) # point=boxcircle color=blue
+point(199.8624,26.416549) # point=boxcircle color=blue
+point(199.92817,26.472109) # point=boxcircle color=blue
+point(199.8363,26.503206) # point=boxcircle color=blue

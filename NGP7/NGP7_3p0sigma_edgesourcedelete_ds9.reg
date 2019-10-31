@@ -1,0 +1,37 @@
+# Region file format: DS9 version 4.1
+# Filename: /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/SCUBA2_clumps/NGP7/NGP7_snr_170919.fits
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+point(204.2568,32.145637) # point=boxcircle color=blue
+point(204.23449,32.137853) # point=boxcircle color=blue
+point(204.29617,32.181193) # point=boxcircle color=blue
+point(204.27517,32.141194) # point=boxcircle color=blue
+point(204.34604,32.152289) # point=boxcircle color=blue
+point(204.3106,32.136746) # point=boxcircle color=blue
+point(204.23058,32.088962) # point=boxcircle color=blue
+point(204.29222,32.075638) # point=boxcircle color=blue
+point(204.28173,32.16675) # point=boxcircle color=blue
+point(204.23973,32.160077) # point=boxcircle color=blue
+point(204.29485,32.153416) # point=boxcircle color=blue
+point(204.30403,32.11897) # point=boxcircle color=blue
+point(204.2476,32.185635) # point=boxcircle color=blue
+point(204.35651,32.125616) # point=boxcircle color=blue
+point(204.29092,32.173416) # point=boxcircle color=blue
+point(204.22662,32.12785) # point=boxcircle color=blue
+point(204.27254,32.172305) # point=boxcircle color=blue
+point(204.20825,32.132285) # point=boxcircle color=blue
+point(204.25288,32.07008) # point=boxcircle color=blue
+point(204.29091,32.114527) # point=boxcircle color=blue
+point(204.21611,32.151178) # point=boxcircle color=blue
+point(204.26335,32.18786) # point=boxcircle color=blue
+point(204.27255,32.090083) # point=boxcircle color=blue
+point(204.35519,32.111172) # point=boxcircle color=blue
+point(204.36966,32.156719) # point=boxcircle color=blue
+point(204.36047,32.145614) # point=boxcircle color=blue
+point(204.30798,32.152303) # point=boxcircle color=blue
+point(204.2214,32.095625) # point=boxcircle color=blue
+point(204.24893,32.132302) # point=boxcircle color=blue
+point(204.36836,32.165608) # point=boxcircle color=blue
+point(204.25153,32.194524) # point=boxcircle color=blue
+point(204.28566,32.131194) # point=boxcircle color=blue
+point(204.26861,32.112305) # point=boxcircle color=blue

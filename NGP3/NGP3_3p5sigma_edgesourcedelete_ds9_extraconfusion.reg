@@ -1,0 +1,11 @@
+global color=red dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+
+circle(202.9141887035227, 23.699138246150415,12") # width=3
+circle(202.96152522523337, 23.748024323557097,12") # width=3
+circle(202.8620004963268, 23.719124584267988,12") # width=3
+
+
+# text(202.9141887035227, 23.694138246150415) color=black width=3 font="helvetica 12 bold roman" text={NGP3.01}
+# text(202.96152522523337, 23.743024323557097) color=black width=3 font="helvetica 12 bold roman" text={NGP3.02}
+# text(202.8620004963268, 23.714124584267988) color=black width=3 font="helvetica 12 bold roman" text={NGP3.03}

@@ -1,0 +1,45 @@
+# Region file format: DS9 version 4.1
+# Filename: /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/SCUBA2_clumps/Bootes1/Bootes1_snr_170919.fits
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+point(218.56919,35.549166) # point=boxcircle color=blue
+point(218.52002,35.561375) # point=boxcircle color=blue
+point(218.55963,35.561387) # point=boxcircle color=blue
+point(218.65115,35.576923) # point=boxcircle color=blue
+point(218.54048,35.605827) # point=boxcircle color=blue
+point(218.60744,35.569163) # point=boxcircle color=blue
+point(218.59377,35.555832) # point=boxcircle color=blue
+point(218.57329,35.579167) # point=boxcircle color=blue
+point(218.61564,35.576939) # point=boxcircle color=blue
+point(218.5883,35.4925) # point=boxcircle color=blue
+point(218.65387,35.556921) # point=boxcircle color=blue
+point(218.56374,35.491388) # point=boxcircle color=blue
+point(218.61971,35.533604) # point=boxcircle color=blue
+point(218.62382,35.555825) # point=boxcircle color=blue
+point(218.56373,35.531388) # point=boxcircle color=blue
+point(218.57192,35.558055) # point=boxcircle color=blue
+point(218.51868,35.525818) # point=boxcircle color=blue
+point(218.57738,35.569167) # point=boxcircle color=blue
+point(218.62249,35.619159) # point=boxcircle color=blue
+point(218.63337,35.543599) # point=boxcircle color=blue
+point(218.61155,35.599162) # point=boxcircle color=blue
+point(218.49001,35.522468) # point=boxcircle color=blue
+point(218.49815,35.574695) # point=boxcircle color=blue
+point(218.6293,35.590267) # point=boxcircle color=blue
+point(218.58968,35.549166) # point=boxcircle color=blue
+point(218.57192,35.568055) # point=boxcircle color=blue
+point(218.58148,35.549167) # point=boxcircle color=blue
+point(218.51869,35.504707) # point=boxcircle color=blue
+point(218.53233,35.53138) # point=boxcircle color=blue
+point(218.55825,35.609165) # point=boxcircle color=blue
+point(218.67433,35.533573) # point=boxcircle color=blue
+point(218.63611,35.553598) # point=boxcircle color=blue
+point(218.57602,35.614722) # point=boxcircle color=blue
+point(218.5692,35.4825) # point=boxcircle color=blue
+point(218.57466,35.493611) # point=boxcircle color=blue
+point(218.62514,35.482491) # point=boxcircle color=blue
+point(218.5965,35.532499) # point=boxcircle color=blue
+point(218.5105,35.509147) # point=boxcircle color=blue
+point(218.51728,35.574707) # point=boxcircle color=blue
+point(218.60061,35.579165) # point=boxcircle color=blue
+point(218.63198,35.509155) # point=boxcircle color=blue

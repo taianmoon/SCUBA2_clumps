@@ -1,0 +1,40 @@
+global color=red dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+
+circle(176.658333333333, -0.1922222222222274,12") # width=3
+circle(176.61722201396296, -0.18555550781969343,12") # width=3
+circle(176.67388900641075, -0.2255555434819763,12") # width=3
+circle(176.68611120923595, -0.15777776338483745,12") # width=3
+circle(176.64833328366322, -0.1811111084919258,12") # width=3
+circle(176.6072218217767, -0.2344443435197019,12") # width=3
+circle(176.6816667207862, -0.13666667274444222,12") # width=3
+circle(176.6416665473164, -0.21888887770261617,12") # width=3
+circle(176.65166662137082, -0.21222221997331592,12") # width=3
+circle(176.61611104321128, -0.12666666088004008,12") # width=3
+circle(176.67500005103577, -0.1488888908519749,12") # width=3
+circle(176.61611093058428, -0.17222217627210215,12") # width=3
+circle(176.58833309263017, -0.16333321388353225,12") # width=3
+circle(176.66611117406345, -0.23444443464145703,12") # width=3
+circle(176.69611115356417, -0.11777779406845727,12") # width=3
+circle(176.66500004095775,-0.20111110967842205,12") # width=3
+circle(176.5972220684674,-0.14555548308183408,12") # width=3
+circle(176.65944444968494,-0.1766666670156513,12") # width=3
+
+# text(176.658333333333, -0.1972222222222274) color=black width=3 font="helvetica 12 bold roman" text={G12.01}
+# text(176.61722201396296, -0.19055550781969343) color=black width=3 font="helvetica 12 bold roman" text={G12.02}
+# text(176.67388900641075, -0.2305555434819763) color=black width=3 font="helvetica 12 bold roman" text={G12.03}
+# text(176.68611120923595, -0.16277776338483745) color=black width=3 font="helvetica 12 bold roman" text={G12.04}
+# text(176.64833328366322, -0.1861111084919258) color=black width=3 font="helvetica 12 bold roman" text={G12.05}
+# text(176.6072218217767, -0.2394443435197019) color=black width=3 font="helvetica 12 bold roman" text={G12.06}
+# text(176.6816667207862, -0.14166667274444222) color=black width=3 font="helvetica 12 bold roman" text={G12.07}
+# text(176.6416665473164, -0.22388887770261617) color=black width=3 font="helvetica 12 bold roman" text={G12.08}
+# text(176.65166662137082, -0.21722221997331592) color=black width=3 font="helvetica 12 bold roman" text={G12.09}
+# text(176.61611104321128, -0.13166666088004008) color=black width=3 font="helvetica 12 bold roman" text={G12.10}
+# text(176.67500005103577, -0.1538888908519749) color=black width=3 font="helvetica 12 bold roman" text={G12.11}
+# text(176.61611093058428, -0.17722217627210215) color=black width=3 font="helvetica 12 bold roman" text={G12.12}
+# text(176.58833309263017, -0.16833321388353225) color=black width=3 font="helvetica 12 bold roman" text={G12.13}
+# text(176.66611117406345, -0.23944443464145703) color=black width=3 font="helvetica 12 bold roman" text={G12.14}
+# text(176.69611115356417, -0.12277779406845727) color=black width=3 font="helvetica 12 bold roman" text={G12.15}
+# text(176.66500004095775,-0.20111110967842205) color=black width=3 font="helvetica 12 bold roman" text={G12.16}
+# text(176.5972220684674,-0.14555548308183408) color=black width=3 font="helvetica 12 bold roman" text={G12.17}
+# text(176.65944444968494,-0.1766666670156513) color=black width=3 font="helvetica 12 bold roman" text={G12.18}

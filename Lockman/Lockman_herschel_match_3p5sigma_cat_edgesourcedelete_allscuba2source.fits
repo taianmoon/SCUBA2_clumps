@@ -1,0 +1,173 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 7886 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
+<VOTABLE version='1.1'>
+<!--
+ !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
+ !  Describes BINTABLE extensions in following HDUs
+ !-->
+<RESOURCE>
+<TABLE name="Joined" nrows="5">
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2018-06-07T15:49:28">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="STILVERS" value="3.1">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 2 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="90" datatype="char" name="Join Type" value="All from 2 (An output row for each matched or unmatched row in table 2 (RIGHT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="55" datatype="char" name="First input table" value="13: Lockman_herschel_match_3p5sigma_cat_edgesourcede..."/>
+<PARAM arraysize="49" datatype="char" name="Second input table" value="14: Lockman_3p5sigma_edgesourcedelete_deboost.cat"/>
+<FIELD arraysize="10" datatype="char" name="name"/>
+<FIELD datatype="double" name="pix_x_1"/>
+<FIELD datatype="double" name="pix_y_1"/>
+<FIELD datatype="double" name="RA_1"/>
+<FIELD datatype="double" name="Dec_1"/>
+<FIELD datatype="double" name="SN_ratio_1"/>
+<FIELD datatype="double" name="flux_pW_1"/>
+<FIELD datatype="double" name="flux_mJy_perbeam_1"/>
+<FIELD datatype="double" name="flux_error_mJy_1"/>
+<FIELD arraysize="32" datatype="char" name="hermes_id" ucd="meta.id;meta.main">
+<DESCRIPTION>IAU name</DESCRIPTION>
+</FIELD>
+<FIELD datatype="int" name="xid" ucd="meta.id">
+<DESCRIPTION>Internal identifier</DESCRIPTION>
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="float" name="ra_2" ucd="pos.eq.ra;meta.main" unit="deg">
+<DESCRIPTION>Right Ascension (J2000)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="ra_2_double">
+<DESCRIPTION>(toDouble( ra_2 ))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="dec_2" ucd="pos.eq.dec;meta.main" unit="deg">
+<DESCRIPTION>Declination (J2000)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="dec_2_double">
+<DESCRIPTION>(toDouble( dec_2 ))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="f250" ucd="phot.flux;em.mm.750-1500GHz;meta.main" unit="mJy">
+<DESCRIPTION>Flux density at 250 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="f250_double">
+<DESCRIPTION>(toDouble(f250))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="f250_double_Jy">
+<DESCRIPTION>(f250_double/1000.0)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="e250" ucd="stat.error;phot.flux;em.mm.750-1500GHz" unit="mJy">
+<DESCRIPTION>Error (inst.) in flux density at 250 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="et250" ucd="stat.error;phot.flux;em.mm.750-1500GHz" unit="mJy">
+<DESCRIPTION>Total error (inst.+conf.) in flux density at 250 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et250_double">
+<DESCRIPTION>(toDouble(et250))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et250_double_Jy">
+<DESCRIPTION>(et250_double/1000.0)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="bkg250" ucd="instr.background;em.mm.750-1500GHz" unit="mJy/beam">
+<DESCRIPTION>Background substracted from 250 micron map</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="chi250" ucd="stat.fit.chi2"/>
+<FIELD datatype="float" name="f350" ucd="phot.flux;em.mm.750-1500GHz;meta.main" unit="mJy">
+<DESCRIPTION>Flux density at 350 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="f350_double">
+<DESCRIPTION>(toDouble(f350))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="f350_double_Jy">
+<DESCRIPTION>(f350_double/1000.0)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="e350" ucd="stat.error;phot.flux;em.mm.750-1500GHz" unit="mJy">
+<DESCRIPTION>Error (inst.) in flux density at 350 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="et350" ucd="stat.error;phot.flux;em.mm.750-1500GHz" unit="mJy">
+<DESCRIPTION>Total error (inst.+conf.) in flux density at 350 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et350_double">
+<DESCRIPTION>(toDouble(et350))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et350_double_Jy">
+<DESCRIPTION>(et350_double/1000.0)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="bkg350" ucd="instr.background;em.mm.750-1500GHz" unit="mJy/beam">
+<DESCRIPTION>Background substracted from 350 micron map</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="chi350" ucd="stat.fit.chi2"/>
+<FIELD datatype="float" name="f500" ucd="phot.flux;em.mm.400-750GHz;meta.main" unit="mJy">
+<DESCRIPTION>Flux density at 500 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="f500_double">
+<DESCRIPTION>(toDouble(f500))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="f500_double_Jy">
+<DESCRIPTION>(f500_double/1000.0)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="e500" ucd="stat.error;phot.flux;em.mm.400-750GHz" unit="mJy">
+<DESCRIPTION>Error (inst.) in flux density at 500 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="et500" ucd="stat.error;phot.flux;em.mm.400-750GHz" unit="mJy">
+<DESCRIPTION>Total error (inst.+conf.) in flux density at 500 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et500_double">
+<DESCRIPTION>(toDouble(et500))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et500_double_Jy">
+<DESCRIPTION>(et500_double/1000.0)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="bkg500" ucd="instr.background;em.mm.400-750GHz" unit="mJy/beam">
+<DESCRIPTION>Background substracted from 500 micron map</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="chi500" ucd="stat.fit.chi2"/>
+<FIELD datatype="int" name="gid" ucd="meta.id">
+<DESCRIPTION>ID of the segment where the source is</DESCRIPTION>
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="short" name="gsize" ucd="meta.number">
+<DESCRIPTION>Number of sources in the segment gID</DESCRIPTION>
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="Separation_1" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Separation_2" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Separation" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="10" datatype="char" name="source_name"/>
+<FIELD datatype="double" name="RA"/>
+<FIELD datatype="double" name="Dec"/>
+<FIELD datatype="double" name="best_redshift_arp220"/>
+<FIELD datatype="double" name="best_dely_arp220"/>
+<FIELD datatype="double" name="min_chi2_arp220"/>
+<FIELD datatype="double" name="best_redshift_aless"/>
+<FIELD datatype="double" name="best_dely_aless"/>
+<FIELD datatype="double" name="min_chi2_aless"/>
+<FIELD datatype="double" name="best_redshift_hfls3"/>
+<FIELD datatype="double" name="best_dely_hfls3"/>
+<FIELD datatype="double" name="min_chi2_hfls3"/>
+<FIELD datatype="double" name="best_redshift_marginalized"/>
+<FIELD datatype="double" name="best_dely_marginalized"/>
+<FIELD datatype="double" name="max_likelihood_marginalized"/>
+<FIELD datatype="double" name="flux_mJy_perbeam_deboost"/>
+<FIELD datatype="double" name="flux_error_mJy_deboost"/>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  458 / width of table in bytes                        NAXIS2  =                    5 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   64 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'name    '           / label for column 1                             TFORM1  = '10A     '           / format for column 1                            TTYPE2  = 'pix_x_1 '           / label for column 2                             TFORM2  = 'D       '           / format for column 2                            TTYPE3  = 'pix_y_1 '           / label for column 3                             TFORM3  = 'D       '           / format for column 3                            TTYPE4  = 'RA_1    '           / label for column 4                             TFORM4  = 'D       '           / format for column 4                            TTYPE5  = 'Dec_1   '           / label for column 5                             TFORM5  = 'D       '           / format for column 5                            TTYPE6  = 'SN_ratio_1'         / label for column 6                             TFORM6  = 'D       '           / format for column 6                            TTYPE7  = 'flux_pW_1'          / label for column 7                             TFORM7  = 'D       '           / format for column 7                            TTYPE8  = 'flux_mJy_perbeam_1' / label for column 8                             TFORM8  = 'D       '           / format for column 8                            TTYPE9  = 'flux_error_mJy_1'   / label for column 9                             TFORM9  = 'D       '           / format for column 9                            TTYPE10 = 'hermes_id'          / label for column 10                            TFORM10 = '32A     '           / format for column 10                           TCOMM10 = 'IAU name'                                                            TUCD10  = 'meta.id;meta.main'                                                   TTYPE11 = 'xid     '           / label for column 11                            TFORM11 = 'J       '           / format for column 11                           TNULL11 =          -2147483648 / blank value for column 11                      TCOMM11 = 'Internal identifier'                                                 TUCD11  = 'meta.id '                                                            TTYPE12 = 'ra_2    '           / label for column 12                            TFORM12 = 'E       '           / format for column 12                           TUNIT12 = 'deg     '           / units for column 12                            TCOMM12 = 'Right Ascension (J2000)'                                             TUCD12  = 'pos.eq.ra;meta.main'                                                 TTYPE13 = 'ra_2_double'        / label for column 13                            TFORM13 = 'D       '           / format for column 13                           TCOMM13 = '(toDouble( ra_2 ))'                                                  TTYPE14 = 'dec_2   '           / label for column 14                            TFORM14 = 'E       '           / format for column 14                           TUNIT14 = 'deg     '           / units for column 14                            TCOMM14 = 'Declination (J2000)'                                                 TUCD14  = 'pos.eq.dec;meta.main'                                                TTYPE15 = 'dec_2_double'       / label for column 15                            TFORM15 = 'D       '           / format for column 15                           TCOMM15 = '(toDouble( dec_2 ))'                                                 TTYPE16 = 'f250    '           / label for column 16                            TFORM16 = 'E       '           / format for column 16                           TUNIT16 = 'mJy     '           / units for column 16                            TCOMM16 = 'Flux density at 250 micron'                                          TUCD16  = 'phot.flux;em.mm.750-1500GHz;meta.main'                               TTYPE17 = 'f250_double'        / label for column 17                            TFORM17 = 'D       '           / format for column 17                           TCOMM17 = '(toDouble(f250))'                                                    TTYPE18 = 'f250_double_Jy'     / label for column 18                            TFORM18 = 'D       '           / format for column 18                           TCOMM18 = '(f250_double/1000.0)'                                                TTYPE19 = 'e250    '           / label for column 19                            TFORM19 = 'E       '           / format for column 19                           TUNIT19 = 'mJy     '           / units for column 19                            TCOMM19 = 'Error (inst.) in flux density at 250 micron'                         TUCD19  = 'stat.error;phot.flux;em.mm.750-1500GHz'                              TTYPE20 = 'et250   '           / label for column 20                            TFORM20 = 'E       '           / format for column 20                           TUNIT20 = 'mJy     '           / units for column 20                            TCOMM20 = 'Total error (inst.+conf.) in flux density at 250 micron'             TUCD20  = 'stat.error;phot.flux;em.mm.750-1500GHz'                              TTYPE21 = 'et250_double'       / label for column 21                            TFORM21 = 'D       '           / format for column 21                           TCOMM21 = '(toDouble(et250))'                                                   TTYPE22 = 'et250_double_Jy'    / label for column 22                            TFORM22 = 'D       '           / format for column 22                           TCOMM22 = '(et250_double/1000.0)'                                               TTYPE23 = 'bkg250  '           / label for column 23                            TFORM23 = 'E       '           / format for column 23                           TUNIT23 = 'mJy/beam'           / units for column 23                            TCOMM23 = 'Background substracted from 250 micron map'                          TUCD23  = 'instr.background;em.mm.750-1500GHz'                                  TTYPE24 = 'chi250  '           / label for column 24                            TFORM24 = 'E       '           / format for column 24                           TUCD24  = 'stat.fit.chi2'                                                       TTYPE25 = 'f350    '           / label for column 25                            TFORM25 = 'E       '           / format for column 25                           TUNIT25 = 'mJy     '           / units for column 25                            TCOMM25 = 'Flux density at 350 micron'                                          TUCD25  = 'phot.flux;em.mm.750-1500GHz;meta.main'                               TTYPE26 = 'f350_double'        / label for column 26                            TFORM26 = 'D       '           / format for column 26                           TCOMM26 = '(toDouble(f350))'                                                    TTYPE27 = 'f350_double_Jy'     / label for column 27                            TFORM27 = 'D       '           / format for column 27                           TCOMM27 = '(f350_double/1000.0)'                                                TTYPE28 = 'e350    '           / label for column 28                            TFORM28 = 'E       '           / format for column 28                           TUNIT28 = 'mJy     '           / units for column 28                            TCOMM28 = 'Error (inst.) in flux density at 350 micron'                         TUCD28  = 'stat.error;phot.flux;em.mm.750-1500GHz'                              TTYPE29 = 'et350   '           / label for column 29                            TFORM29 = 'E       '           / format for column 29                           TUNIT29 = 'mJy     '           / units for column 29                            TCOMM29 = 'Total error (inst.+conf.) in flux density at 350 micron'             TUCD29  = 'stat.error;phot.flux;em.mm.750-1500GHz'                              TTYPE30 = 'et350_double'       / label for column 30                            TFORM30 = 'D       '           / format for column 30                           TCOMM30 = '(toDouble(et350))'                                                   TTYPE31 = 'et350_double_Jy'    / label for column 31                            TFORM31 = 'D       '           / format for column 31                           TCOMM31 = '(et350_double/1000.0)'                                               TTYPE32 = 'bkg350  '           / label for column 32                            TFORM32 = 'E       '           / format for column 32                           TUNIT32 = 'mJy/beam'           / units for column 32                            TCOMM32 = 'Background substracted from 350 micron map'                          TUCD32  = 'instr.background;em.mm.750-1500GHz'                                  TTYPE33 = 'chi350  '           / label for column 33                            TFORM33 = 'E       '           / format for column 33                           TUCD33  = 'stat.fit.chi2'                                                       TTYPE34 = 'f500    '           / label for column 34                            TFORM34 = 'E       '           / format for column 34                           TUNIT34 = 'mJy     '           / units for column 34                            TCOMM34 = 'Flux density at 500 micron'                                          TUCD34  = 'phot.flux;em.mm.400-750GHz;meta.main'                                TTYPE35 = 'f500_double'        / label for column 35                            TFORM35 = 'D       '           / format for column 35                           TCOMM35 = '(toDouble(f500))'                                                    TTYPE36 = 'f500_double_Jy'     / label for column 36                            TFORM36 = 'D       '           / format for column 36                           TCOMM36 = '(f500_double/1000.0)'                                                TTYPE37 = 'e500    '           / label for column 37                            TFORM37 = 'E       '           / format for column 37                           TUNIT37 = 'mJy     '           / units for column 37                            TCOMM37 = 'Error (inst.) in flux density at 500 micron'                         TUCD37  = 'stat.error;phot.flux;em.mm.400-750GHz'                               TTYPE38 = 'et500   '           / label for column 38                            TFORM38 = 'E       '           / format for column 38                           TUNIT38 = 'mJy     '           / units for column 38                            TCOMM38 = 'Total error (inst.+conf.) in flux density at 500 micron'             TUCD38  = 'stat.error;phot.flux;em.mm.400-750GHz'                               TTYPE39 = 'et500_double'       / label for column 39                            TFORM39 = 'D       '           / format for column 39                           TCOMM39 = '(toDouble(et500))'                                                   TTYPE40 = 'et500_double_Jy'    / label for column 40                            TFORM40 = 'D       '           / format for column 40                           TCOMM40 = '(et500_double/1000.0)'                                               TTYPE41 = 'bkg500  '           / label for column 41                            TFORM41 = 'E       '           / format for column 41                           TUNIT41 = 'mJy/beam'           / units for column 41                            TCOMM41 = 'Background substracted from 500 micron map'                          TUCD41  = 'instr.background;em.mm.400-750GHz'                                   TTYPE42 = 'chi500  '           / label for column 42                            TFORM42 = 'E       '           / format for column 42                           TUCD42  = 'stat.fit.chi2'                                                       TTYPE43 = 'gid     '           / label for column 43                            TFORM43 = 'J       '           / format for column 43                           TNULL43 =          -2147483648 / blank value for column 43                      TCOMM43 = 'ID of the segment where the source is'                               TUCD43  = 'meta.id '                                                            TTYPE44 = 'gsize   '           / label for column 44                            TFORM44 = 'I       '           / format for column 44                           TNULL44 =               -32768 / blank value for column 44                      TCOMM44 = 'Number of sources in the segment gID'                                TUCD44  = 'meta.number'                                                         TTYPE45 = 'Separation_1'       / label for column 45                            TFORM45 = 'D       '           / format for column 45                           TUNIT45 = 'arcsec  '           / units for column 45                            TCOMM45 = 'Distance between matched objects along a great circle'               TUCD45  = 'pos.angDistance'                                                     TTYPE46 = 'Separation_2'       / label for column 46                            TFORM46 = 'D       '           / format for column 46                           TUNIT46 = 'arcsec  '           / units for column 46                            TCOMM46 = 'Distance between matched objects along a great circle'               TUCD46  = 'pos.angDistance'                                                     TTYPE47 = 'Separation'         / label for column 47                            TFORM47 = 'D       '           / format for column 47                           TUNIT47 = 'arcsec  '           / units for column 47                            TCOMM47 = 'Distance between matched objects along a great circle'               TUCD47  = 'pos.angDistance'                                                     TTYPE48 = 'source_name'        / label for column 48                            TFORM48 = '10A     '           / format for column 48                           TTYPE49 = 'RA      '           / label for column 49                            TFORM49 = 'D       '           / format for column 49                           TTYPE50 = 'Dec     '           / label for column 50                            TFORM50 = 'D       '           / format for column 50                           TTYPE51 = 'best_redshift_arp220' / label for column 51                          TFORM51 = 'D       '           / format for column 51                           TTYPE52 = 'best_dely_arp220'   / label for column 52                            TFORM52 = 'D       '           / format for column 52                           TTYPE53 = 'min_chi2_arp220'    / label for column 53                            TFORM53 = 'D       '           / format for column 53                           TTYPE54 = 'best_redshift_aless' / label for column 54                           TFORM54 = 'D       '           / format for column 54                           TTYPE55 = 'best_dely_aless'    / label for column 55                            TFORM55 = 'D       '           / format for column 55                           TTYPE56 = 'min_chi2_aless'     / label for column 56                            TFORM56 = 'D       '           / format for column 56                           TTYPE57 = 'best_redshift_hfls3' / label for column 57                           TFORM57 = 'D       '           / format for column 57                           TTYPE58 = 'best_dely_hfls3'    / label for column 58                            TFORM58 = 'D       '           / format for column 58                           TTYPE59 = 'min_chi2_hfls3'     / label for column 59                            TFORM59 = 'D       '           / format for column 59                           TTYPE60 = 'best_redshift_marginalized' / label for column 60                    TFORM60 = 'D       '           / format for column 60                           TTYPE61 = 'best_dely_marginalized' / label for column 61                        TFORM61 = 'D       '           / format for column 61                           TTYPE62 = 'max_likelihood_marginalized' / label for column 62                   TFORM62 = 'D       '           / format for column 62                           TTYPE63 = 'flux_mJy_perbeam_deboost' / label for column 63                      TFORM63 = 'D       '           / format for column 63                           TTYPE64 = 'flux_error_mJy_deboost' / label for column 64                        TFORM64 = 'D       '           / format for column 64                           DATE-HDU= '2018-09-04T14:29:55' / Date of HDU creation (UTC)                    STILVERS= '3.1     '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Lockman_01@g@     @U€     @cÈS2‡ý¡@M“i\¬L@ššhýG>ò Ž¥žÚZ@"‘»Ý[@ä1³õ†¹4HERMES S250 SF J103302.5+590906  OqCB¤@cÈT€   Bl›O@M“ià   A¨æ@5Â@   ?•žy‡+?´8Ü@t[7@‹fà   ?oGG®{ÀL—?—A•r@2®@€   ?“!§ï²?­ï’@˜†¹@×    ?s…ûIºÀR=?Ñ«Aó„@"Þp€   ?ƒR^¸Që…?ì,6@’@@£    ?r°Ç®záÀ\tY?ˆDÂ  u Ó?Ó þâ”áb                Lockman_01@cÈS2‡ý¡@M“i\¬L@ ÌÌÌÌÌÍ?É™™™™™š?ýœ(/ ,³@      ?ó333334@ÁÀÄŸõT@fffffg?ÜÌÌÌÌÌÍ@Ø#a–Ú@ ÌÌÌÌÌÍ?É™™™™™š?Ù^¾µ`EJ@j"û—lí?ûa·IVêLockman_02@T€     @d`     @cÏ‹Ï”ºá@Mž\Y¹@¿aácþ>ñ Þšhqy@"J ÛÁ@3
+Oò4HERMES S250 SF J103356.2+591418  –9C{é@cÏ}    Blô@MžƒÀ   AŸúZ@3ÿK@   ?”z(1&éy?®'@tKg@‰là   ?oE"Ðå`ÀL—?L]¬A»dÎ@7l™À   ?—ü„Ý/ ?´ç†@˜äg@Œà   ?s‘ø´9XÀR=?Š›dAÒOÍ@:Iù    ?šë~—Oß@"@•xð@¯    ?s!éxÔýôÀ\tY?»µ6  u Ó@ÆwçÊï”                Lockman_02@cÏ‹Ï”ºá@Mž\Y¹@      ?Ð      @å’}J@
+      ?ø      ?ð­	°=¿@™™™™™š?ã333334?õ…íÞ=)@
+      ?ø      ?ã ‰ªÝÃ6@ñ‚¤»ºm?û(YÍàÖ]Lockman_03@d      @W@     @cÊ £vË¶@M”iL½Æ@ãÃ¯çR—>ñ¥¯Ïû•í@"9<AŠ‡@Yë?¼4HERMES S250 SF J103315.7+590933  ÇžCP¼@cÊ€   Bl£5@M”f    A¼lý@7Ÿ    ?˜U¡ÊÀƒ?µl²@u»H@·i    ?ot!ÊÀƒÀL—@h9Bû@@¿cÀ   ?¡&IxÔýô?®ä¯@˜8Ì@€   ?s|‰7KÇÀR=@šFAøc?@?gà   ?ŸË*áG®?á^L@‘(@% à   ?r”{Æ§ïžÀ\tY?¶—Y  u Ó@ £·-kÛ                Lockman_03@cÊ £vË¶@M”iL½Æ@      ?Ð      @í-[vY/@ÌÌÌÌÌÍ?ý™™™™™š@vïîm@      ?æfffffg?ïNw™Àí@      ?æfffffg?ãžÔÚ¾ž£@ýŽx$¶?ûÓPÞ¯ðLockman_04@^À     @W      @cÌ±’¯IP@M”EF5[@0•»È˜>éç®&÷]V@ˆy2ï:½?ýiZTA@4HERMES S250 SF J103333.0+590932 DCc)@cÌe    Bl¢Â@M”X@   A¢ïê@4]ý@   ?”Û     ?°ß@t›ú@“@   ?oO[dZ¬ÀL—?ê½A|è@/½    ?!¨r° Å?´P@˜Æ/@Åà   ?sŽ~ùÛ#ÀR=?`.î@Ð§î@ýÀ   ?zµ=/Ÿ¾?åº_@’š@B@   ?r²@Ä›¥ãÀ\tY?ª™'  u Ó@1Zwæµ*                Lockman_04@cÌ±’¯IP@M”EF5[?ÿ333334?É™™™™™š?õX@nˆqz@ÌÌÌÌÌÍ?ñ™™™™™š@-Ú.æ’@fffffg?Ù™™™™™š@ðß*ì“Õ?ÿ333334?É™™™™™š?àltñõM@ÇÑŸÌ‘?ô–¯§bËÝLockman_05@cÀ     @[      @cÊCùÎ"€@M–‹{ƒF@–“ÿi¦>é"Æ
+ã´@¾Êâ$£?üÑ\›.š                                €   À  ø      À  ø      À  ø      ø      À  À  ø      ø      À  À  À  ø      ø      À  À  ø      ø      À  À  À  ø      ø      À  À  ø      ø      À  À  €   € ø      ø                        ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      @÷"4OÐ?ôÐˆl1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
